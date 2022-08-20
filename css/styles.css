@@ -1,0 +1,38 @@
+:root {
+  --color-hover: rgb(33, 150, 243);
+  --color-web: rgb(33, 33, 33);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--color-web);
+  font-size: 14px;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.team li,
+button.active,
+.main-section p {
+  font-size: 16px;
+}
+
+.header-title {
+  font-size: 44px;
+}
+
+.section-title {
+  font-size: 36px;
+}
+
+.main-section h3 {
+  font-size: 18px;
+}
+
+.active:hover,
+.active:focus {
+  cursor: pointer;
+  color: var(--color-hover);
+}

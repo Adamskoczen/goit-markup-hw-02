@@ -64,12 +64,16 @@ button.active,
   color: var(--color-white);
 }
 
+.address-footer address {
+  color: var(--color-white);
+  line-height: 171%;
+}
+
 .address-footer a {
   opacity: 0.6;
 }
 
 .main-class p,
-.address-footer address,
 .address-footer a {
   color: var(--color-contact);
   line-height: 171%;

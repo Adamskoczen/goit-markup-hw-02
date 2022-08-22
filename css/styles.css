@@ -1,8 +1,10 @@
 :root {
   --color-logo: rgb(33, 150, 243);
+  --color-logo-dark: rgb(19, 127, 214);
   --color-main: rgb(33, 33, 33);
   --color-black: rgb(0, 0, 0);
   --color-contact: rgb(117, 117, 117);
+  --color-contact-transp: rgba(255, 255, 255, .6);
   --color-white: rgb(255, 255, 255);
   --color-bg-main: rgb(47, 48, 58);
   --color-bg-section: rgb(245, 244, 250);
@@ -73,7 +75,8 @@ body {
 
 .main-section button {
   font-family: "roboto";
-  color: var(--color-bg-main);
+  color: var(--color-white);
+  background-color: var(--color-logo);
   font-size: 16px;
   line-height: 1.875;
   font-weight: 700;
@@ -84,10 +87,14 @@ body {
   color: var(--color-contact);
 }
 
-.main-sections button:hover, .main-sections button:focus {
+.main-sections button:hover {
+  background-color: var(--color-logo-dark);
+  cursor: pointer;
+}
+
+.portfolio-section button:hover, .portfolio-section button:focus {
   color: var(--color-white);
   background-color: var(--color-logo);
-  cursor:pointer;
 }
 
 .first-section {
@@ -155,6 +162,10 @@ body {
 
 .contact {
   color: var(--color-contact);
+}
+
+.bottom .contact {
+  color: var(--color-contact-transp);
 }
 
 .logo-bottom {

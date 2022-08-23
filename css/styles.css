@@ -31,6 +31,10 @@ body {
   line-height: 1.714;
 }
 
+.bottom .contact {
+  color: var(--color-contact-transp);
+}
+
 .link:hover, .link:focus {
   color: var(--color-logo);
   cursor: pointer;
@@ -162,10 +166,6 @@ body {
 
 .contact {
   color: var(--color-contact);
-}
-
-.bottom .contact {
-  color: var(--color-contact-transp);
 }
 
 .logo-bottom {
